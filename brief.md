@@ -17,6 +17,17 @@ each field in turn.
 each field in turn.
 
 ## Software
+Semantic Versioning gives each API release a number in the form
+MAJOR.MINOR.PATCH. PATCH increases for bug fixes that do not change
+how the API is used. MINOR increases when new features are added in a
+backward-compatible way, for example a new optional field showing the
+service fee. MAJOR increases when a change breaks old clients, for
+example renaming the "status" field in an application response. This
+tells mobile developers which updates are safe to accept and which
+need code changes.
+Resource: Semantic Versioning 2.0.0 - https://semver.org/
+
+
 ## AI
 ## Mobile
 ## Networking
