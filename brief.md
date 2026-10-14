@@ -40,6 +40,16 @@ to update answers by updating the documents, without retraining the
 model.
 Resource: Lewis et al., Retrieval-Augmented Generation for KnowledgeIntensive NLP Tasks - https://arxiv.org/abs/2005.11401
 ## Mobile
+
+On iOS, App Transport Security (ATS) blocks plain HTTP connections by
+default and requires HTTPS with modern TLS. If the app tries to load
+an "http://" link, the connection fails unless the developer adds an
+exception in the app's Info.plist file. The agency should serve all
+API endpoints and document links over HTTPS instead of adding
+exceptions, because exceptions weaken security and may need to be
+justified during App Store review.
+Resource: Apple Developer - Preventing Insecure Network Connections -
+https://developer.apple.com/documentation/security/preventing-insecurenetwork-connections
 ## Networking
 ## Cybersecurity
 ## Data
