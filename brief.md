@@ -14,6 +14,7 @@ instructions that try to control it. Data rules decide when citizen
 data must be anonymized or pseudonymized. If one field is weak,
 citizens may lose trust in the whole service. This brief explains
 each field in turn.
+each field in turn.
 
 ## Software
 ## AI
