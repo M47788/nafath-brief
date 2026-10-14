@@ -85,4 +85,15 @@ Resource: Regulation (EU) 2016/679 (GDPR), Article 4(5) and Recital 26 -
 https://eur-lex.europa.eu/eli/reg/2016/679/oj
 
 ## Misconception in My Track
+
+A common belief is that a MAJOR version increase is for big new
+features. In fact, MAJOR depends only on whether the change breaks
+backward compatibility. A large new feature that does not break old
+clients is only a MINOR increase, while a small change like renaming
+one field is a MAJOR increase. Items 7 and 8 of the Semantic
+Versioning 2.0.0 specification explain this.
 ## Open Question
+I would like to learn how long the agency should keep supporting an
+old MAJOR version of the API while citizens still use older versions
+of the mobile app
+
