@@ -29,6 +29,16 @@ Resource: Semantic Versioning 2.0.0 - https://semver.org/
 
 
 ## AI
+
+Retrieval-Augmented Generation (RAG) lets the assistant search a
+collection of official documents, such as service guides and fee
+lists, and give the most relevant parts to the language model before
+it answers. The model then answers from these documents instead of
+only from what it learned in training. This reduces made-up answers,
+lets the assistant show which document it used, and allows the agency
+to update answers by updating the documents, without retraining the
+model.
+Resource: Lewis et al., Retrieval-Augmented Generation for KnowledgeIntensive NLP Tasks - https://arxiv.org/abs/2005.11401
 ## Mobile
 ## Networking
 ## Cybersecurity
