@@ -12,9 +12,8 @@ links. Networking makes sure the app works on both IPv4 and IPv6
 networks. Cybersecurity protects the assistant from hidden
 instructions that try to control it. Data rules decide when citizen
 data must be anonymized or pseudonymized. If one field is weak,
-citizens may lose trust in the whole service. This brief explains
-each field in turn.
-each field in turn.
+citizens may lose trust in the whole service This brief explains each field and ends with a focus on Semantic Versioning
+for the app's API.
 
 ## Software
 Semantic Versioning gives each API release a number in the form
